@@ -6,7 +6,7 @@ class Period(Enum):
     SECOND = "s"
     MINUTE = "m"
     HOURLY = "h"
-    DAYLY = "d"
+    DAILY = "d"
     WEEKLY = "w"
     MONTHLY = "M"
     YEARLY = "y"
