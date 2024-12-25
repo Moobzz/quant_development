@@ -20,7 +20,7 @@ res = datapoller.crypto.get_trade_bars(
     ticker="BTCUSDT",
     start=datetime(2018, 1, 1),
     end=datetime(2024, 1, 1),
-    granularity=Period.DAYLY,
+    granularity=Period.DAILY,
     granularity_multiplier="3",
 )
 # # exit()
